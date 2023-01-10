@@ -1,47 +1,44 @@
-@use '../variables/' as *;
+@use '../base/' as *;
 
-.navigation {
-    height: $nav-height;
-    background: $nav-background;
+
+.n-wrapper {
+    height: 10vh;
+    display: flex; // make same line
+    justify-content: space-between;
+    top: 0;
 }
 
-.brand {
-    position: absolute;
-    padding-left: 20px;
-    float: left;
-    line-height: $nav-height;
-    font-size: 1.4em;
-    a,
-    a:visited {
-        color: $nav-font-color;
-        text-decoration: none;
-    }
+.n-left {
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 2rem;
 }
-// no padding for nav
-.nav-container {
-    max-width: $content-width;
-    margin: 0 auto;
+.n-name {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-// navigation
-nav {
-    float: right;
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        li {
-            float: left;
-            position: relative;
-            a,
-            a:visited {
-                padding: 0 20px;
-                line-height: $nav-height;
-                text-decoration: none;
-                color: white;
-            }
-            a:hover {
-                color: rgb(203, 238, 137);
-            }
-        }
-    }
+
+.n-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+}
+
+.n-list {
+    flex: 0;
+}
+
+.n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.n-list > ul :hover {
+    color: rgb(117, 115, 111);
+    cursor: pointer;
 }

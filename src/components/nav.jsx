@@ -1,34 +1,44 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 export const Nav = () => {
   return (
-    <section className="navigation">
-      <div className="nav-container">
-        <div className="brand">
-          <h2>Huu Mai</h2>
+    <div className="n-wrapper" id="Navbar">
+      {/* left */}
+      <div className="n-left">
+        <div className="n-name">
+          <p className="n-left-font">Huu Mai</p>
         </div>
-
-        <nav>
-          <div className="nav-mobile">
-            <a id="nav-toggle" href="#">
-              <span></span>
-            </a>
-          </div>
-          <ul className="nav-list">
+      </div>
+      {/* right */}
+      <div className="n-right">
+        <div className="n-list">
+          <ul style={{ listStyleType: "none" }}>
             <li>
-              <a href="#">My Repository</a>
+              <Link
+                activeClass="active"
+                to="repositories"
+                spy={true}
+                smooth={true}
+              >
+                Repositories
+              </Link>
             </li>
 
             <li>
-              <a href="#">Projects</a>
+              <Link to="projects" spy={true} smooth={true}>
+                Projects
+              </Link>
             </li>
 
             <li>
-              <a href="#">Contact</a>
+              <Link to="contact" spy={true} smooth={true}>
+                Contact
+              </Link>
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
