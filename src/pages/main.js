@@ -5,11 +5,12 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export const Main = () => {
   return (
-    <div className="m-container">
+    <div className="m">
       <div className="m-container box">
         <div className="m-name">
           <h1>
-            Hya, <br /> welcome to my page!
+            Hya, <br />
+            welcome to my page!
           </h1>
         </div>
 
@@ -19,22 +20,24 @@ export const Main = () => {
             designing and development.
             <Typewriter
               cursor
-              typeSpeed={0}
+              typeSpeed={5}
               cursorStyle="_"
-              words={[""]}
+              words={[]}
             ></Typewriter>
           </p>
         </div>
         <div className="i-social-media">
-          <a href="https://github.com/huumai1998" target="_blank">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/huu-mai-283b1216b/"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
+          <div className="i-social-list">
+            <a href="https://github.com/huumai1998" target="_blank">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/huu-mai-283b1216b/"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </div>
         </div>
       </div>
     </div>

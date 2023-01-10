@@ -5,20 +5,20 @@
     height: 10vh;
     display: flex; // make same line
     justify-content: space-between;
+    .n-left {
+        flex: 1;
+        align-items: center;
+        justify-content: left;
+        display: flex;
+        gap: 2rem;
+        padding: 30px;
+        .n-name {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+    }
 }
 
-.n-left {
-    flex: 1;
-    align-items: center;
-    justify-content: left;
-    display: flex;
-    gap: 2rem;
-    padding: 10px;
-}
-.n-name {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 
 .n-right {
     flex: 1;
@@ -26,19 +26,16 @@
     align-items: center;
     justify-content: flex-end;
     font-weight: 400;
-}
-
-.n-list {
-    flex: 0;
-}
-
-.n-list > ul {
-    display: flex;
-    gap: 2rem;
-    margin-right: 4rem;
-}
-
-.n-list > ul :hover {
-    color: rgb(221, 208, 181);
-    cursor: pointer;
+    .n-list {
+        flex: 0;
+        ul {
+            display: flex;
+            gap: 2rem;
+            margin-right: 4rem;
+            :hover {
+                color: rgb(221, 208, 181);
+                cursor: pointer;
+            }
+        }
+    }
 }

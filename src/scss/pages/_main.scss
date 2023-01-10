@@ -1,4 +1,24 @@
+.m {
+    padding: 30px;
+}
 .m-container {
     padding: 10px;
     width: 35em;
+}
+
+.box {
+    position: absolute;
+    top: 50%;      
+    transform: translate(0, -50%);
+    border: 3px solid rgb(48, 48, 48);
+    font-size: 1.5em;
+}
+
+
+@media only screen and (max-width: 900px){
+    .box {
+        font-size: 1.1em;
+        padding: 22px;
+        width: 29em;
+    }
 }
