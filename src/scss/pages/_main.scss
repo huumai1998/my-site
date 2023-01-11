@@ -1,24 +1,51 @@
 .m {
-    padding: 30px;
+    padding: 60px;
+    width: 100%;
     .m-container {
-        padding: 10px;
-        width: 35em;
+        padding: 15px;
+        width: 45%;
+        animation-name: moveInleft;
+        animation-duration: 2.5s;
     }
 }
+
+@keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(0);
+    }
+    // 80% {
+    //     transform: translateX(5px);
+    // }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .box {
     position: absolute;
     top: 50%;      
     transform: translate(0, -50%);
-    border: 3px solid rgb(48, 48, 48);
     font-size: 1.5em;
+    // border: 5px solid rgb(46, 33, 33); 
+    // outline: 5px solid rgb(56, 56, 56);
+    box-shadow: 
+    0 0 0 5px hsl(0, 0%, 50%),
+    0 0 0 10px hsl(0, 0%, 60%),
+    0 0 0 15px hsl(0, 0%, 70%),
+    0 0 0 20px hsl(0, 0%, 80%),
+    0 0 0 25px hsl(0, 0%, 90%);
 }
 
 
+
 @media only screen and (max-width: 900px){
+    .m .m-container {
+        width: 65%;
+    }
     .box {
         font-size: 1.1em;
         padding: 22px;
-        width: 29em;
     }
 }
