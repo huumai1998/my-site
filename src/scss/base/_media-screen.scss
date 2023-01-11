@@ -1,8 +1,21 @@
+@use './breakpoint' as *;
 /*** resize navigation list 
  */
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: $mobile){
     .n-list {
         display: none;
     }
-}
 
+    .i-social-media .i-social-list a {
+        font-size: 1.0em;
+    }
+
+    .main-containers .m-pages .m-container {
+        width: 70%;
+    }
+    .m-box {
+        font-size: 1.1em;
+        padding: 22px;
+    }
+}

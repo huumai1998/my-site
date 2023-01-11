@@ -1,0 +1,25 @@
+@use './typography' as *;
+$height: 100vh;
+$mobile: 900px;
+
+//color
+$maincolor: rgb(53, 53, 53);
+$red: red;
+$blue: blue;
+$white: white;
+$greenyellow: greenyellow;
+$snow: snow;
+$coral: coral;
+$cyan: cyan;
+$darkorange: darkorange;
+$fuchsia: fuchsia;
+
+.main-containers {
+    height: $height;
+}
+
+* {
+    font-family: $font-ubuntu;
+    background-color: $maincolor;
+    color: $white;
+}
