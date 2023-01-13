@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav } from "./components";
-import { Main, Skills } from "./pages";
-import { BrowserRouter as Router, Routes } from "react-router-dom";
+import { Main, Repositories, Skills } from "./pages";
+import { BrowserRouter as Router } from "react-router-dom";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <Router>
         <Main />
         <Skills />
+        <Repositories />
       </Router>
     </>
   );

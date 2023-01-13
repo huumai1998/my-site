@@ -4,8 +4,8 @@ export const Skills = () => {
   return (
     <section className="main-containers">
       <div className="skills-container">
-        <div className="s-container">
-          <div className="s-title">
+        <div className="container">
+          <div className="title">
             <h1>SKILLS</h1>
           </div>
           <div className="s-cards">
