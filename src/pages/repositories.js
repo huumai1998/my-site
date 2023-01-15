@@ -9,7 +9,7 @@ export const Repositories = () => {
             <div className="title">
               <h1>REPOSITORIES</h1>
             </div>
-            <div className="d-cards"></div>
+            <div className="r-cards"></div>
           </div>
         </div>
       </section>
