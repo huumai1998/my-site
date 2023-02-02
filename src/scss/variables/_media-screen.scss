@@ -23,6 +23,24 @@
             font-size: 0.5em;
             text-align: center;
         }
+        .s-cards {
+            margin-bottom: 20px;
+            .skills_section {
+                padding: 5em;
+                .containers {
+                    padding: 80px;
+                    .skills_main {
+                        .skill_bar {
+                            .info {
+                                p {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
 }

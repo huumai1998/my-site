@@ -10,7 +10,7 @@ export const Skills = () => {
           </div>
           <div className="s-cards">
             <div class="skills_section">
-              <div class="container">
+              <div class="containers">
                 <div class="skills_main">
                   <div class="skill_bar">
                     <div class="info">

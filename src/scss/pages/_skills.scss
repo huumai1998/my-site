@@ -6,10 +6,9 @@
             align-items: center;
             justify-content: center;
             position: relative;
-            .container {
-                width: 1000px;
+            .containers {
                 height: auto;
-                padding: 60px;
+                padding: 120px;
                 border-radius: 14px;
                 box-shadow: 2px 14px 45px rgba(0, 0, 0, 0.082);
                 backdrop-filter: blur(60px);
@@ -26,7 +25,7 @@
                             justify-content: space-between;
                             padding: 0 10px;
                             p {
-                                font-size: 19px;
+                                font-size: 25px;
                                 font-weight: 500;
                                 opacity: .8;
                             }
