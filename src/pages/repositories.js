@@ -3,7 +3,7 @@ import videoBg from "../assets/HuuMai-RegisterSite.mp4";
 export const Repositories = () => {
   return (
     <>
-      <section className="main-containers" id="repositories">
+      <section className="main-containers" id="repositories" data-aos="fade-up">
         <div className="repositories-container">
           <div className="container">
             <div className="title">
