@@ -15,19 +15,14 @@ export const Nav = () => {
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>
             <li>
-              <Link
-                activeClass="active"
-                to="repositories"
-                spy={true}
-                smooth={true}
-              >
-                Repositories
+              <Link activeClass="active" to="skills" spy={true} smooth={true}>
+                Skills
               </Link>
             </li>
 
             <li>
-              <Link to="projects" spy={true} smooth={true}>
-                Projects
+              <Link to="repositories" spy={true} smooth={true}>
+                Repositories
               </Link>
             </li>
 

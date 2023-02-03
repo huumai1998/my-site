@@ -2,7 +2,7 @@ import React from "react";
 
 export const Skills = () => {
   return (
-    <section className="main-containers">
+    <section className="main-containers" id="skills">
       <div className="skills-container">
         <div className="container">
           <div className="title">

@@ -3,7 +3,7 @@ import videoBg from "../assets/HuuMai-RegisterSite.mp4";
 export const Repositories = () => {
   return (
     <>
-      <section className="main-containers">
+      <section className="main-containers" id="repositories">
         <div className="repositories-container">
           <div className="container">
             <div className="title">
@@ -13,13 +13,13 @@ export const Repositories = () => {
               <div className="containers">
                 <div className="box-repositories">
                   <div className="repositories-1">
-                    <div className="1-title">
-                      <h3>Coversy</h3>
+                    <div className="title">
+                      <h2>Coversy</h2>
                     </div>
-                    <div className="1-description">
+                    <div className="description">
                       <p>Teacher management system</p>
-                      <p>Role: Font-End Developer</p>
-                      <p>
+                      <p className="role">Role: Font-End Developer</p>
+                      <p className="tech">
                         Techniques: Instructor shift scheduling, shift exchange,
                         and payroll management system.
                       </p>
@@ -33,18 +33,18 @@ export const Repositories = () => {
                   </div>
 
                   <div className="repositories-1">
-                    <div className="1-title">
-                      <h3>Caravelle</h3>
+                    <div className="title">
+                      <h2>Caravelle</h2>
                     </div>
-                    <div className="1-description">
-                      <p>Restaurant and Louge Services</p>
-                      <p>Role: Full-stack Developer</p>
-                      <p>
-                        Techniques: The purpose of this website is for customers
-                        to view restaurant menu, place orders, and pay online.
+                    <div className="description">
+                      <p>Customer Service system</p>
+                      <p className="role">Role: Full-stack Developer</p>
+                      <p className="tech">
+                        Techniques: customers to view restaurant menu, place
+                        orders, and pay online.
                       </p>
                       <a
-                        href="https://github.com/TieuVanHien/Caravelle"
+                        href="https://github.com/drewxs/coversy"
                         target="_blank"
                       >
                         View repositories
