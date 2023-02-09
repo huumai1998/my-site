@@ -10,8 +10,47 @@ export const Skills = () => {
             <h1>SKILLS</h1>
           </div>
 
-          <div className="">
-            <img src={html} alt="html" width="150px" height="150px" />
+          <div className="pics-container">
+            <div className="pics-box">
+              <div className="top-box">
+                <div className="pics">
+                  <img src={html} alt="html" width="150px" height="150px" />
+                  <p className="bold">HTML</p>
+                </div>
+
+                <div className="pics">
+                  <img src={html} alt="html" width="150px" height="150px" />
+                  <p className="bold">CSS/SCSS</p>
+                </div>
+
+                <div className="pics">
+                  <img src={html} alt="html" width="150px" height="150px" />
+                  <p className="bold">RUBY</p>
+                </div>
+
+                <div className="pics">
+                  <img src={html} alt="html" width="150px" height="150px" />
+                  <p className="bold">React JS</p>
+                </div>
+              </div>
+
+              <div className="bottom-box">
+                <div className="pics">
+                  <img src={html} alt="html" width="150px" height="150px" />
+                  <p className="bold">Node/ExpressJS</p>
+                </div>
+
+                <div className="pics">
+                  <img src={html} alt="html" width="150px" height="150px" />
+                  <p className="bold">MongoDB</p>
+                </div>
+
+                <div className="pics">
+                  <img src={html} alt="html" width="150px" height="150px" />
+                  <p className="bold">Java</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
