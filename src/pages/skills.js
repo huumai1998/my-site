@@ -12,7 +12,7 @@ export const Skills = () => {
 
           <div className="pics-container">
             <div className="pics-box">
-              <div className="top-box">
+              <div className="top-box" data-aos="zoom-in-up">
                 <div className="pics">
                   <img src={html} alt="html" width="150px" height="150px" />
                   <p className="bold">HTML</p>
@@ -34,7 +34,7 @@ export const Skills = () => {
                 </div>
               </div>
 
-              <div className="bottom-box">
+              <div className="bottom-box" data-aos="zoom-in-up">
                 <div className="pics">
                   <img src={html} alt="html" width="150px" height="150px" />
                   <p className="bold">Node/ExpressJS</p>

@@ -11,7 +11,7 @@ export const Repositories = () => {
             </div>
             <div className="r-cards">
               <div className="containers">
-                <div className="box-repositories">
+                <div className="box-repositories" data-aos="zoom-in-down">
                   <div className="repositories-1">
                     <div className="title">
                       <h2>Coversy</h2>
