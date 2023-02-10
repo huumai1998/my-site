@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export const Main = () => {
   return (
-    <div className="main-containers">
+    <section className="main-containers">
       <div className="m-pages">
         <div className="m-container m-box">
           <div className="m-name">
@@ -42,6 +42,6 @@ export const Main = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

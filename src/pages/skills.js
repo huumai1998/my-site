@@ -1,5 +1,5 @@
 import React from "react";
-import { html } from "../assets";
+import { css, html, java, mongoo, node, react, ruby } from "../assets";
 
 export const Skills = () => {
   return (
@@ -14,39 +14,39 @@ export const Skills = () => {
             <div className="pics-box">
               <div className="top-box" data-aos="zoom-in-up">
                 <div className="pics">
-                  <img src={html} alt="html" width="150px" height="150px" />
+                  <img src={html} alt="html" />
                   <p className="bold">HTML</p>
                 </div>
 
                 <div className="pics">
-                  <img src={html} alt="html" width="150px" height="150px" />
+                  <img src={css} alt="css" />
                   <p className="bold">CSS/SCSS</p>
                 </div>
 
                 <div className="pics">
-                  <img src={html} alt="html" width="150px" height="150px" />
+                  <img src={ruby} alt="ruby" />
                   <p className="bold">RUBY</p>
                 </div>
 
                 <div className="pics">
-                  <img src={html} alt="html" width="150px" height="150px" />
+                  <img src={react} alt="react" />
                   <p className="bold">React JS</p>
                 </div>
               </div>
 
               <div className="bottom-box" data-aos="zoom-in-up">
                 <div className="pics">
-                  <img src={html} alt="html" width="150px" height="150px" />
+                  <img src={node} alt="node" />
                   <p className="bold">Node/ExpressJS</p>
                 </div>
 
                 <div className="pics">
-                  <img src={html} alt="html" width="150px" height="150px" />
+                  <img src={mongoo} alt="mongoo" />
                   <p className="bold">MongoDB</p>
                 </div>
 
                 <div className="pics">
-                  <img src={html} alt="html" width="150px" height="150px" />
+                  <img src={java} alt="java" />
                   <p className="bold">Java</p>
                 </div>
               </div>

@@ -1,29 +1,35 @@
-.r-cards {
-    .containers {
-        .box-repositories {
-            padding: 20px 20px 10px;
-            width: 100%;
-            .repositories-1 {
-                box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.082);
-                font-size: 15px;
-                width: 25em;
-                padding: 0px 0px 0px;
-                display: inline-block;
-                margin-left: 50px;   
-                p {
-                    margin-bottom: 0.3rem;
-                }
-                a {
-                    color: white;
-                    text-decoration: none;
-                }
-                a:hover {
-                    color: rgb(170, 151, 151);
-                }
-                .description  p {
-                    color: rgb(165, 165, 165);
+.repositories-container {
+    .container {
+        height: 100%;
+        .r-cards {
+            .containers {
+                .box-repositories {
+                    padding: 20px 20px 10px;
+                    width: 100%;
+                    .repositories-1 {
+                        box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.082);
+                        font-size: 15px;
+                        width: 25em;
+                        padding: 0px 0px 0px;
+                        display: inline-block;
+                        margin-left: 50px;   
+                        p {
+                            margin-bottom: 0.3rem;
+                        }
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        a:hover {
+                            color: rgb(170, 151, 151);
+                        }
+                        .description  p {
+                            color: rgb(165, 165, 165);
+                        }
+                    }
                 }
             }
         }
+        
     }
 }

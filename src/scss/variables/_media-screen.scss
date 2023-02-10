@@ -18,7 +18,7 @@
         font-size: 1.1em;
         padding: 22px;
     }
-    .container{
+    .container {
         .title{
             font-size: 0.4em;
             text-align: center;
@@ -39,7 +39,18 @@
                     }
                 }
             }
+        }
 
+        .pics-container {
+            .pics-box {
+                .pics {
+                    height: 100px;
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
         }
     }
 
@@ -52,5 +63,4 @@
             }
         }
     }
-
 }
