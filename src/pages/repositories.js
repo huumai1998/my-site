@@ -44,7 +44,7 @@ export const Repositories = () => {
                         orders, and pay online.
                       </p>
                       <a
-                        href="https://github.com/drewxs/coversy"
+                        href="https://github.com/TieuVanHien/Caravelle"
                         target="_blank"
                       >
                         View repositories
