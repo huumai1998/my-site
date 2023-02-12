@@ -3,7 +3,7 @@ $tablet: 750px;
 $laptop: 1024px;
 $desktop: 1440px;
 
-$breakpoints: (
+$breakpoint: (
     mobile: $mobile,
     tablet: $tablet,
     laptop: $laptop,
@@ -44,10 +44,6 @@ $breakpoints: (
 //     font-family: $font-ubuntu;
 // }
 
-// body {
-//     // background-color: $maincolor;
-//     background-image: linear-gradient(rgb(0, 0, 0), rgb(145, 145, 145), rgb(0, 0, 0));
-// }
 
 
 // // Section Break

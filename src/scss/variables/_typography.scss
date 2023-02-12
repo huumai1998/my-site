@@ -19,9 +19,14 @@ $yellow: #6c6c60;
     }
 }
 
+
+
+
 * {
-    background: $main;
+    background-color: $main;
     font-family: $font-ubuntu;
+    // padding: 0;
+    // margin: 0;
 }
 
 :export {
