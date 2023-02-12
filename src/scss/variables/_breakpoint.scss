@@ -1,40 +1,60 @@
-@use './typography' as *;
-$height: 100vh;
-$mobile: 900px;
+$mobile: 480px;
+$tablet: 750px;
+$laptop: 1024px;
+$desktop: 1440px;
 
-//color
-$maincolor: rgb(53, 53, 53);
-$red: red;
-$blue: blue;
-$white: white;
-$greenyellow: greenyellow;
-$snow: snow;
-$coral: coral;
-$cyan: cyan;
-$darkorange: darkorange;
-$fuchsia: fuchsia;
+$breakpoints: (
+    mobile: $mobile,
+    tablet: $tablet,
+    laptop: $laptop,
+    desktop: $desktop,
+);
 
-section {
-    height: $height;
+:export {
+    mobile: $mobile;
+    tablet: $tablet;
+    laptop: $laptop;
+    desktop: $desktop;
 }
 
 
-* {
-    color: $white;
-    font-family: $font-ubuntu;
-}
+// @use './typography' as *;
+// $height: 100vh;
+// $mobile: 900px;
 
-body {
-    // background-color: $maincolor;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(145, 145, 145), rgb(0, 0, 0));
-}
+// //color
+// $maincolor: rgb(53, 53, 53);
+// $red: red;
+// $blue: blue;
+// $white: white;
+// $greenyellow: greenyellow;
+// $snow: snow;
+// $coral: coral;
+// $cyan: cyan;
+// $darkorange: darkorange;
+// $fuchsia: fuchsia;
+
+// section {
+//     height: $height;
+// }
 
 
-// Section Break
-.title {
-    h1{
-        font-size: 8em;
-        color: rgb(63, 63, 63);
-        font-weight: bold;
-    }
-}
+// * {
+//     color: $white;
+//     font-family: $font-ubuntu;
+// }
+
+// body {
+//     // background-color: $maincolor;
+//     background-image: linear-gradient(rgb(0, 0, 0), rgb(145, 145, 145), rgb(0, 0, 0));
+// }
+
+
+// // Section Break
+// .title {
+//     h1{
+//         font-size: 8em;
+//         color: rgb(63, 63, 63);
+//         font-weight: bold;
+//     }
+// }

@@ -5,43 +5,81 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export const Main = () => {
   return (
-    <section className="main-containers">
-      <div className="m-pages">
-        <div className="m-container m-box">
-          <div className="m-name">
-            <h1>
-              Hya, <br />
-              welcome to my page!
-            </h1>
-          </div>
+    <>
+      <section className="main-page" id="main-page">
+        <div className="container">
+          <div className="title-container">
+            <div className="title">
+              <h1>
+                Hya, <br />
+                Welcome to my page!
+              </h1>
+              <h2 className="text-to-introduce-my-self">
+                I am Full-Stack developer with entry-level of experience in web
+                designing and development.
+                <Typewriter
+                  cursor
+                  typeSpeed={5}
+                  cursorStyle="_"
+                  words={[]}
+                ></Typewriter>
+              </h2>
+            </div>
 
-          <div className="text-title">
-            <p>
-              I am Full-Stack developer with entry-level of experience in web
-              designing and development.
-              <Typewriter
-                cursor
-                typeSpeed={5}
-                cursorStyle="_"
-                words={[]}
-              ></Typewriter>
-            </p>
-          </div>
-          <div className="i-social-media">
-            <div className="i-social-list">
-              <a href="https://github.com/huumai1998" target="_blank">
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/huu-mai-283b1216b/"
-                target="_blank"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
+            <div className="i-social-media">
+              <div className="i-social-list">
+                <a href="https://github.com/huumai1998" target="_blank">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/huu-mai-283b1216b/"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
+    // <section className="main-containers">
+    //   <div className="m-pages">
+    //     <div className="m-container m-box">
+    //       <div className="m-name">
+    //         <h1>
+    //           Hya, <br />
+    //           welcome to my page!
+    //         </h1>
+    //       </div>
+
+    //       <div className="text-title">
+    //         <p>
+    //           I am Full-Stack developer with entry-level of experience in web
+    //           designing and development.
+    //           <Typewriter
+    //             cursor
+    //             typeSpeed={5}
+    //             cursorStyle="_"
+    //             words={[]}
+    //           ></Typewriter>
+    //         </p>
+    //       </div>
+    //       <div className="i-social-media">
+    //         <div className="i-social-list">
+    //           <a href="https://github.com/huumai1998" target="_blank">
+    //             <FontAwesomeIcon icon={faGithub} />
+    //           </a>
+    //           <a
+    //             href="https://www.linkedin.com/in/huu-mai-283b1216b/"
+    //             target="_blank"
+    //           >
+    //             <FontAwesomeIcon icon={faLinkedin} />
+    //           </a>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </section>
   );
 };

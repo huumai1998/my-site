@@ -4,3 +4,29 @@
 $font-ubuntu: 'Ubuntu', sans-serif;
 
 
+//color
+$main: #000;
+$white: #fff;
+$yellow: #6c6c60;
+
+// title size
+@for $index from 1 through 6 {
+    h#{$index} {
+        font-family: $font-ubuntu;
+        color: $white;
+        margin: 0;
+        line-height: 1.2;
+    }
+}
+
+* {
+    background: $main;
+    font-family: $font-ubuntu;
+}
+
+:export {
+    main: $main;
+    white: $white;
+    yellow: $yellow;
+    font-family: $font-ubuntu;
+}

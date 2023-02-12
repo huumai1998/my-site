@@ -39,3 +39,16 @@
         }
     }
 }
+
+
+@media screen and (max-width: $mobile){
+    .n-list {
+        display: none;
+    }
+}
+
+@media screen and (max-width: $tablet){
+    .n-list {
+        display: none;
+    }
+}

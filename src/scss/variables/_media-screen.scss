@@ -1,66 +1,66 @@
-@use './breakpoint' as *;
-/*** resize navigation list 
- */
+// @use './breakpoint' as *;
+// /*** resize navigation list 
+//  */
 
-@media screen and (max-width: $mobile){
-    .n-list {
-        display: none;
-    }
+// @media screen and (max-width: $mobile){
+//     .n-list {
+//         display: none;
+//     }
 
-    .i-social-media .i-social-list a {
-        font-size: 1.0em;
-    }
+//     .i-social-media .i-social-list a {
+//         font-size: 1.0em;
+//     }
 
-    .main-containers .m-pages .m-container {
-        width: 70%;
-    }
-    .m-box {
-        font-size: 1.1em;
-        padding: 22px;
-    }
-    .container {
-        .title{
-            font-size: 0.4em;
-            text-align: center;
-        }
-        .s-cards {
-            margin-bottom: 20px;
-            .skills_section {
-                .containers {
-                    padding: 70px;
-                    .skills_main {
-                        .skill_bar {
-                            .info {
-                                p {
-                                    font-size: 15px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+//     .main-containers .m-pages .m-container {
+//         width: 70%;
+//     }
+//     .m-box {
+//         font-size: 1.1em;
+//         padding: 22px;
+//     }
+//     .container {
+//         .title{
+//             font-size: 0.4em;
+//             text-align: center;
+//         }
+//         .s-cards {
+//             margin-bottom: 20px;
+//             .skills_section {
+//                 .containers {
+//                     padding: 70px;
+//                     .skills_main {
+//                         .skill_bar {
+//                             .info {
+//                                 p {
+//                                     font-size: 15px;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
 
-        .pics-container {
-            .pics-box {
-                .pics {
-                    height: 100px;
-                    img {
-                        width: 100px;
-                        height: 100px;
-                    }
-                }
-            }
-        }
-    }
+//         .pics-container {
+//             .pics-box {
+//                 .pics {
+//                     height: 100px;
+//                     img {
+//                         width: 100px;
+//                         height: 100px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
 
-    .containers {
-        .box-repositories {
-            .repositories-1 {
-                font-size: 12px;
-                text-align: center;
-                margin-top: 20px;
-            }
-        }
-    }
-}
+//     .containers {
+//         .box-repositories {
+//             .repositories-1 {
+//                 font-size: 12px;
+//                 text-align: center;
+//                 margin-top: 20px;
+//             }
+//         }
+//     }
+// }
