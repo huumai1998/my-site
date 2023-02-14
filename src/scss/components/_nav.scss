@@ -3,9 +3,19 @@
 
 .n-wrapper {
     height: 10vh;
+    width: 100%;
     display: flex; // make same line
     justify-content: space-between;
     color: $white;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(66, 66, 66, 0.2);
+    // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    // border: 1px solid rgba(206, 206, 206, 0.3);
     .n-left {
         flex: 1;
         align-items: center;

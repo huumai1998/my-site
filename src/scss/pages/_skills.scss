@@ -1,4 +1,33 @@
-// @use '../variables/' as *;
+@use '../variables/' as *;
+
+.skills {
+    height: 100vh;
+    .container {
+        .skills-container {
+            display: flex;
+            height: auto;
+            justify-content: center;
+            padding: 5vh;
+            .skills-box {
+                width: 200px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                background: rgba(243, 243, 243, 0.2);
+                // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(9px);
+                border-radius: 20px;
+                -webkit-backdrop-filter: blur(9px);
+                margin: 30px;
+                // border: 1px solid rgba(206, 206, 206, 0.3);
+                img {
+                    height: 200px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
 // .container
 //     {
 //         height: 100%;
