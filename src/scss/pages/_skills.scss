@@ -3,11 +3,17 @@
 .skills {
     height: 100vh;
     .container {
+        .title {
+            font-size: 5em;
+            h1 {
+                color: rgb(22, 21, 21);
+            }
+        }
         .skills-container {
             display: flex;
             height: auto;
             justify-content: center;
-            padding: 5vh;
+            padding: 2vh;
             .skills-box {
                 width: 200px;
                 align-items: center;
@@ -23,6 +29,71 @@
                 img {
                     height: 200px;
                     width: 200px;
+                }
+                h3 {
+                    position: absolute;
+                    font-size: 25px;
+                    opacity: 0;
+                }
+                &:hover {
+                    // opacity: .5;
+                    background-color: rgb(19, 18, 18);
+                    img {
+                        z-index: 0;
+                    }
+                    h3 {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: $tablet) {
+    .skills {
+        .container {
+            .title {
+                font-size: 3em;
+                text-align: center;
+            }
+
+            .skills-container {
+                .skills-box {
+                    margin: 10px;
+                    img {
+                        width: 80px;
+                        height: 80px;
+                    }
+                    h3 {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .skills {
+        .container {
+            .title {
+                font-size: 2em;
+                text-align: center;
+            }
+
+            .skills-container {
+                .skills-box {
+                    display: flex;
+                    margin: 10px;
+                    img {
+                        width: 75px;
+                        height: 75px;
+                    }
+                    h3 {
+                        font-size: 15px;
+                    }
                 }
             }
         }
