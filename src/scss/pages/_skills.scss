@@ -61,10 +61,10 @@
 
             .skills-container {
                 .skills-box {
-                    margin: 10px;
+                    margin: 5px;
                     img {
-                        width: 80px;
-                        height: 80px;
+                        width: 120px;
+                        height: 120px;
                     }
                     h3 {
                         font-size: 15px;
@@ -90,6 +90,31 @@
                     img {
                         width: 75px;
                         height: 75px;
+                    }
+                    h3 {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-height: 670px) {
+    .skills {
+        .container {
+            .title {
+                font-size: 3em;
+                text-align: center;
+            }
+
+            .skills-container {
+                .skills-box {
+                    margin: 5px;
+                    img {
+                        width: 120px;
+                        height: 120px;
                     }
                     h3 {
                         font-size: 15px;

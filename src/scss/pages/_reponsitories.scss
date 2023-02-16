@@ -1,3 +1,111 @@
+@use '../variables/' as *;
+
+
+.repositories {
+    height: 100vh;
+    .container {
+        .title {
+            font-size: 5em;
+            h1 {
+                color: rgb(22, 21, 21);
+            }
+        }
+        .repositories-container {
+            display: flex;
+            height: auto;
+            justify-content: center;
+            .cards-repositories {
+                width: 250px;
+                align-items: center;
+                justify-content: center;
+                background: rgba(243, 243, 243, 0.2);
+                // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(9px);
+                border-radius: 20px;
+                -webkit-backdrop-filter: blur(9px);
+                margin: 50px;
+                color: rgb(151, 151, 151);
+                .title-of-repositories {
+                    font-size: 25px;
+                    text-align: center;
+                }
+                .description {
+                    margin-left: 10px;
+                    .title-description {
+                        color: rgb(219, 216, 213);
+                        font-size: 20px;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: rgb(253, 253, 253);
+                        &:hover {
+                            color: rgb(151, 151, 151);;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: $tablet) {
+    .repositories {
+        .container {
+            .title {
+                font-size: 3em;
+                text-align: center;
+            }
+
+            .repositories-container {
+                display: grid;
+                .cards-repositories {
+                    margin: 20px;
+                    .title-of-repositories {
+                        h3 {
+                            font-size: 20px;
+                        }
+                    }
+                    .description {
+                        .title-description, .role, .tech {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-height: 670px) {
+    .repositories {
+        .container {
+            .title {
+                font-size: 3em;
+                text-align: center;
+            }
+
+            .repositories-container {
+                display: grid;
+                .cards-repositories {
+                    margin: 20px;
+                    .title-of-repositories {
+                        h3 {
+                            font-size: 20px;
+                        }
+                    }
+                    .description {
+                        .title-description, .role, .tech {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 // .repositories-container {
 //     .container {
 //         height: 100%;

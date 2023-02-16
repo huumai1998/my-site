@@ -5,46 +5,48 @@ export const Repositories = () => {
     <>
       <section className="repositories" id="repositories">
         <div className="container">
-          <div className="title">
+          <div className="title" data-aos="zoom-in-down">
             <h1>REPOSITORIES</h1>
           </div>
 
-          <div className="cards-repositories">
-            <div className="title-of-repositories">
-              <h3>Coversy</h3>
+          <div className="repositories-container" data-aos="fade-up">
+            <div className="cards-repositories">
+              <div className="title-of-repositories">
+                <h3>Coversy</h3>
+              </div>
+
+              <div className="description">
+                <p className="title-description">Teacher Management System</p>
+                <p className="role">Role: Font-End Developer</p>
+                <p className="tech">
+                  Techniques: Instructor shift scheduling, shift exchange, and
+                  payroll management system.
+                </p>
+                <a href="https://github.com/drewxs/coversy" target="_blank">
+                  View repositories
+                </a>
+              </div>
             </div>
 
-            <div className="description">
-              <p>Teacher Management System</p>
-              <p className="role">Role: Font-End Developer</p>
-              <p className="tech">
-                Techniques: Instructor shift scheduling, shift exchange, and
-                payroll management system.
-              </p>
-              <a href="https://github.com/drewxs/coversy" target="_blank">
-                View repositories
-              </a>
-            </div>
-          </div>
+            <div className="cards-repositories">
+              <div className="title-of-repositories">
+                <h3>Caravelle</h3>
+              </div>
 
-          <div className="cards-repositories">
-            <div className="title-of-repositories">
-              <h3>Caravelle</h3>
-            </div>
-
-            <div className="description">
-              <p>Customer Service system</p>
-              <p className="role">Role: Full-stack Developer</p>
-              <p className="tech">
-                Techniques: customers to view restaurant menu, place orders, and
-                pay online.
-              </p>
-              <a
-                href="https://github.com/TieuVanHien/Caravelle"
-                target="_blank"
-              >
-                View repositories
-              </a>
+              <div className="description">
+                <p className="title-description">Customer Service system</p>
+                <p className="role">Role: Full-stack Developer</p>
+                <p className="tech">
+                  Techniques: customers to view restaurant menu, place orders,
+                  and pay online.
+                </p>
+                <a
+                  href="https://github.com/TieuVanHien/Caravelle"
+                  target="_blank"
+                >
+                  View repositories
+                </a>
+              </div>
             </div>
           </div>
         </div>
