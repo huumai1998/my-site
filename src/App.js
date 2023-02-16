@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Nav } from "./components";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Main, Repositories, Skills } from "./pages";
+import { Footer, Main, Repositories, Skills } from "./pages";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <Main />
         <Skills />
         <Repositories />
+        <Footer />
       </Router>
     </>
   );

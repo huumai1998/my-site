@@ -1,0 +1,94 @@
+@use '../variables/' as *;
+
+.contact {
+    height: 50vh;
+    .container {
+        .title-container {
+            .title {
+                font-size: 5em;
+                h1 {
+                    color: rgb(22, 21, 21);
+                }
+            }
+        }
+
+        .to-make-a-container-size {
+            .contact-box {
+                .box {
+                    margin: 20px;
+                    font-size: 20px;
+                    a {
+                        font-size: 20px;
+                        text-decoration: none;
+                        color: white;
+                    }
+                    .phone {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .final {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid;
+    }
+}
+
+
+@media screen and (max-width: $tablet) {
+    .contact {
+        height: 30%;
+        .container {
+            .title-container {
+                .title {
+                    font-size: 3em;
+                    text-align: center;
+                }
+            }
+
+            .to-make-a-container-size {
+                .contact-box {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    .box {
+                        margin: 10px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-height: 670px) {
+    .contact {
+        height: 30%;
+        .container {
+            .title-container {
+                .title {
+                    font-size: 3em;
+                    text-align: center;
+                }
+            }
+
+            .to-make-a-container-size {
+                .contact-box {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    .box {
+                        margin: 10px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
